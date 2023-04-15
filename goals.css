@@ -1,0 +1,224 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+#top {
+    padding-top: 100;
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    gap: 30%
+}
+
+#top>div>img {
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+}
+
+#leftDiv {
+    display: flex;
+    gap: 10px;
+}
+
+#leftDiv>div {
+    display: flex;
+    gap: 10px;
+    /* margin-top: 7px; */
+}
+
+#leftDiv>div>a>img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+#leftDiv>div>img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: auto;
+    font-weight: bold;
+    background-color: #0072bf;
+}
+
+#bottom>div {
+    text-align: center;
+    padding: 1%;
+}
+
+#bottom>div>a {
+    color: white;
+}
+
+#bottom>div:hover {
+    background-color: #00548f;
+}
+
+#bottom2 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #00548f;
+}
+
+#bottom2>div>a {
+    text-decoration: none;
+    color: white;
+}
+
+#bottom2>div {
+    padding: 1%;
+    color: white;
+}
+/* main */
+#topBox {
+    width: 970px;
+    height: 250px;
+    margin: auto;
+}
+
+#headings {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 190px;
+}
+
+#headings a {
+    text-decoration: none;
+    color: blue;
+}
+
+#headings a:hover {
+    text-decoration: none;
+    color: rgb(246, 51, 51);
+}
+
+
+#fitnessGoals {
+    display: flex;
+    width: 73%;
+    margin: auto;
+    column-gap: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#fitnesGoal-1 {
+    /* display:block; */
+    width: 50%;
+    font-weight:bold;
+    color: rgb(81, 88, 88);
+
+}
+
+#goal-1 {
+    width: 100%;
+}
+
+.goal-heading {
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(141, 140, 140);
+    padding: 0 10px;
+    background-color: rgb(245, 245, 245);
+    justify-content: space-between;
+
+}
+
+.goal-heading-1 {
+    border: none;
+    background-color: white;
+    font-size: 12px;
+
+}
+
+
+#heading-goal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.edit{
+    color: blue;
+}
+
+img {
+    width: 5%;
+    height: 40px;
+}
+#bottomA{
+    width: 55%;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    background-color: rgb(224,224,224);
+    
+}
+
+#footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 3fr 1fr;
+    /* height: 300px; */
+    margin-top: 50px;
+    /* border: 1px solid red ; */
+    background-color: #F0F2F4;
+    padding: 4px;
+}
+#footer-content{
+    width: 82%;
+    margin: auto;
+
+    /* padding: 4px; */
+    margin-top: 25px;
+    margin-right: 2px;
+    height: 100px;
+    /* border: 1px solid rgb(0, 0, 0) ; */
+
+}
+#footer-content a{
+    font-family: "Neue Plak UA",Helvetica,Arial,-apple-system,sans-serif;
+    /* background-color: #F0F2F4; */
+    text-decoration: none;
+    font-size: 12px;
+    padding: 3px;
+}
+#footer-content a:hover{
+    color:  rgb(88, 88, 222);
+}
+#footer-content p{
+   text-align: center;
+   font-family: "Neue Plak UA",Helvetica,Arial,-apple-system,sans-serif;
+   font-size: 11px;
+   line-height: 30px;
+}
+#select-box{
+    width: 40%;
+    /* border: 1px solid orange; */
+    
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 4px;
+}

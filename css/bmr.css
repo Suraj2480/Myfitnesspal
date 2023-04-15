@@ -1,0 +1,132 @@
+body{
+    width: 100%;
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 50px;
+    text-align: left;
+    font-family: Arial, sans-serif
+}
+#container{
+    width: 70%;
+    margin-left: 100px;
+    /* margin: auto; */
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f6f7f6;
+    padding: 10px;
+}
+h2{
+    color: darkslateblue;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid gray;
+}
+
+#head>#content{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr; */
+}
+#content>#bmrcal>h3{
+ color: slateblue;
+ font-size: 18px;
+ padding: 0px 10px;
+ margin-bottom: 0px;
+}
+#content>#bmrcal>p{
+ font-size: 13px ;
+ margin-top:0PX ;
+ padding: 0px 10px;
+}
+#bmrdata{
+    padding: 5px;
+    margin-left: 50px;
+}
+#bmrdata> span{
+ font-size: 12px;
+ font-weight: bold;
+}
+#bmrdata> input{
+    width: 95px;
+    height: 15px;
+}
+#bmrdata> select{
+    width: 95px;
+    height: 22px;
+}
+#bmrdatah{
+    padding: 5px;
+    margin-left: 100px;
+}
+#bmrdatah> span{
+ font-size: 12px;
+ font-weight: bold;
+}
+#bmrdatah> input{
+    width: 40px;
+    height: 15px;
+}
+#bmrdatah> select{
+    width: 95px;
+    height: 22px;
+}
+#bmrage{
+    padding: 5px;
+    margin-left: 110px;
+}
+#bmrage> span{
+    font-size: 12px;
+    font-weight: bold;
+   }
+   #bmrage> input{
+       width: 45px;
+   }
+   #bmrgender{
+       padding: 5px;
+       margin-left:110px ;
+   }
+   #bmrgender>span{
+       font-size: 12px;
+       font-weight: bold;
+   }
+   #bmrgender>label{
+       font-size: 12px;
+       font-weight: bold;
+   }
+   #calculate{
+    margin: auto;
+   }
+   #calculate>button{
+       margin-left:170px;
+       margin-right: 100px;
+       background-color: lightgreen;
+       height: 30px;
+       width: 100px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+#aboutbmr{
+    padding: 10px;
+}
+#aboutbmr>h3{
+    margin-top: 10px;
+ color: slateblue;
+ font-size: 15x;
+}
+#aboutbmr>div>p{
+    font-size: 13px;
+    text-align: left; 
+    padding: auto;
+}
+#footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 150px;
+}
+#footer a{
+    margin: 5px;
+}

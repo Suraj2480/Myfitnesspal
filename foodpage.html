@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD</title>
+    <style>
+       * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+#top {
+    padding-top: 100;
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    gap: 30%
+}
+
+#top>div>img {
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+}
+
+#leftDiv {
+    display: flex;
+    gap: 10px;
+}
+
+#leftDiv>div {
+    display: flex;
+    gap: 10px;
+    /* margin-top: 7px; */
+}
+
+#leftDiv>div>a>img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+#leftDiv>div>img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: auto;
+    font-weight: bold;
+    background-color: #0072bf;
+}
+
+#bottom>div {
+    text-align: center;
+    padding: 1%;
+}
+
+#bottom>div>a {
+    color: white;
+}
+
+#bottom>div:hover {
+    background-color: #00548f;
+}
+
+#bottom2 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #00548f;
+}
+
+#bottom2>div>a {
+    text-decoration: none;
+    color: white;
+}
+
+#bottom2>div {
+    padding: 1%;
+    color: white;
+}
+
+         /*--------------top section style*-----------*/
+         *{
+             margin: 0px;
+             padding: 0px;
+             box-sizing: border-box;
+             text-decoration: none;
+             border:none;
+         }
+         #top{
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            margin: auto;
+            font-size: 18px;
+            margin-top: 12px;
+            justify-content: space-between;
+        }
+        #top .right{
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+        }
+        #top .right p{
+            margin:0px 10px;
+
+        }
+        #top a{
+            color: rgb(89, 89, 243);
+        }
+        /*----------top section end here----------*/
+        /*----------nev section start here--------*/
+        #nev{
+            width: 100%;
+            margin-top: 20px;
+            background-color:  rgb(61, 61, 190);
+            padding: 15px;
+            padding-left: 10%;
+        }
+        #nev a{
+            color: white;
+            margin-right: 20px;
+            font-size: 15px;
+            padding: 15px;
+        }
+        #nev a:hover{
+            background-color: rgb(11, 11, 105);
+        }
+        /*---------nev section ends here----------*/
+        /*----------search css start here---------*/
+        #search{
+            display: flex;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+            justify-content: space-between;
+        }
+        #search #left{
+            width: 60%;
+           
+        }
+        #search #right{
+            width: 40%;
+            margin-left: 80px;
+            position: relative;
+        }
+        #search #right #btn1{
+            position: absolute;
+            top: 0px;
+            right: 98px;
+        }
+        #search #right #btn2{
+            position: absolute;
+            top: 600px;
+            right: 45px;
+        }
+        #searchIcon{
+            width:100%;
+            padding: 10px;
+            display: flex;
+            height: 70px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #searchIcon input{
+            width: 400px;
+           border: none;
+           outline: none;
+           font-size: 20px;
+        }
+        #searchIcon input:active{
+           border: none;
+           outline: none;
+        }
+        #searchIcon img{
+            width: 30px;
+            height: auto;
+        }
+        #foodAnalysis{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           align-items: center;
+           margin-left: 20px;
+           text-align: center;
+           margin-top: 30px;
+        }
+        #foodAnalysis p{
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        /*---------------------recipe section css   start here-------------*/
+        #inspiration{
+            margin-top: 200px;
+            margin-bottom: 30px;
+        }
+        #recipe{
+            display: flex;
+            width: 100%;
+            text-align:center;
+        }
+        #firstimg{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-right: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #secondimg{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #firstimg img,#secondimg img{
+            width: 100%;
+            height:auto;
+            margin-bottom: 20px;
+            
+        }
+        #firstimg h2,#secondimg h2{
+           text-align: center;
+           font-size: 22px;
+           margin-bottom: 5px;
+        }
+        /* --------------footer section cs------------------*/
+        #bottomF{
+           display: flex;
+           flex-direction:column;
+           align-items: center;
+           margin-top: 60px;
+       }
+       #bottomF a{
+           margin: 10px;
+       }
+       /*  -----------------later added dynamic part----------------*/
+       #container{
+           width: 100%;
+       }
+       #parent{
+           width: 90%;
+           display: flex;
+           justify-content: space-between;
+           margin: 15px;
+           padding: 10px;
+           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       }
+       #div3{
+           display: flex;
+       }
+       #calorie1{
+           width: 100px;
+           height: 100px;
+           color: black;
+           text-align: center;
+           
+       }
+    </style>
+</head>
+<body><!-- Nav Bar -->
+    <div id="top">
+        <div><img src="https://us.v-cdn.net/6024397/uploads/RP38WAYG9BJD/mfp-wordmark-indigo-tm.png" alt=""></div>
+        <div id="leftDiv">
+            <div>
+                <p>hi, </p>
+                <p>Ankit</p>
+            </div>
+            <div>
+                <a href="">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.w8csn2YW8Ds6UEUuweEqCAHaHa&pid=Api&P=0&w=167&h=167">
+                </a>
+                <p style="background-color: red; width: 20px; height: 20px; color: white;">1</p>
+                <img src="https://wbecs.com/wbecs20/wp-content/themes/wbecs20/assets/img/membersarea/user_icon1.png"
+                    alt="">
+                <p style="background-color: lightgray; width: 20px; height: 20px; color: darkgrey;">0</p>
+            </div>
+            <div>
+                <a href="">
+                    <p>Help</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>Setting</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>Log Out</p>
+                </a>
+            </div>
+            <div>
+                <p>Follow us:</p>
+                <a href="https://facebook.com/myfitnesspal"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.53b08CedN8D1qIPKNpEczAHaHt&pid=Api&P=0&w=159&h=165"></a>
+                <a href="https://twitter.com/myfitnesspal"><img
+                        src="https://tse2.mm.bing.net/th?id=OIP.uQlQc1ej3xTRMpywzGuFvAHaHw&pid=Api&P=0&w=156&h=163"></a>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div><a href="./homePage.html" >MY HOME</a></div>
+        <div><a href="./foodpage.html">FOOD</a></div>
+        <div><a href="./exerciseDairy.html" >EXERCISE</a></div>
+        <!-- <div><a  >REPORT</a></div> -->
+        <div><a  href="./appgallery.html" >APPS</a></div>
+        <div><a href="./community.html">COMMUNITY</a></div>
+        <div><a href="./blog.html">BLOG</a></div>
+        <div><a href="./premium.html">PREMIUM</a></div>
+    </div>
+    <div id="bottom2">
+        <div><a href="./homePage.html" id="a1">Home</a></div>
+        <div><a href="./goals.html" id="a2">Goal</a></div>
+        <!-- <div><a  id="a3">Check-In</a></div> -->
+        <!-- <div><a href=""  id="a4">Mail</a></div> -->
+        <div><a href="./profile.html" id="a5">Profile</a></div>
+        <div><a href="./blog.html" id="a6">My Blog</a></div>
+        <div><a href="./friends.html" id="a7">Friend</a></div>
+        <div><a href="./setting.html" id="a8">Setting</a></div>
+    </div>
+    <!---------------search funcutanility page--------->
+    <div id="search">
+        <div id="left">
+           <div id="searchIcon">
+               <img src="https://cdn1.iconfinder.com/data/icons/material-design-icons-light/24/magnify-128.png" alt="">
+               <input type="text" placeholder="search your food item here,like apple"  id="searchFruit">
+           </div>
+           <div id="container">
+
+           </div>
+           <div id="foodAnalysis">
+               <img src="https://www.myfitnesspal.com/_next/static/media/food-search.ca9350e8.svg" alt="">
+               <h1>Food Analysis</h1>
+               <p>Understand how the food you’re eating contributes to your daily calories, macronutrients, and micronutrients.</p>
+            </div>
+            <!------------------------recipe section start here------>
+                <h1 id="inspiration">Recipes & Inspiration</h1>
+                <div id="recipe">
+                   <div id="firstimg">
+                       <img src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbreakfast-300-calories.d991cc82.png&w=1920&q=75" alt="">
+                       <h2>15 Make Ahead Breakfasts Under 300 Calories</h2>
+                       <a href="./blog.html">MyFitnessBlog</a>
+                   </div>
+                   <div id="secondimg">
+                       <img src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frunning.deb62de2.png&w=1920&q=75" alt="">
+                       <h2>Essential Guide To Getting Moving</h2>
+                       <a href="./blog.html">MyFitnessBlog</a>
+                    </div>
+                </div>
+            </div>
+        <div id="right">
+            <img src="https://s0.2mdn.net/simgad/4078844634522658667" alt="" id="rightimg1" >
+             <button onclick="myfun1()" id="btn1">close&#x2715;</button>
+            
+        </div>
+    </div>
+    <!--------------------------------foooter section-------------->
+    <div id="bottomF">
+        <div>
+        <a href="">Calorie Counter</a>
+        <a href="">Blog</a>
+        <a href="">Terms</a>
+        <a href="">Privacy</a>
+        <a href="">Contact Us</a>
+        <a href="">API</a>
+        <a href="">Jobs</a>
+        <a href="">Feedback</a>
+        <a href="">Community Guidlines</a>
+        <a href="">Ad choics</a>
+        <a href=""> Do Not Sell My Personal Information</a>
+        </div>
+        <p>&#169 2022 MyFitnessPal, Inc.</p>
+    </div>
+</body>
+</html>
+<script>
+    function myfun1(){
+        let img=document.getElementById("rightimg1");
+        let btn=document.getElementById("btn1");
+        btn.innerHTML="";
+        img.src=""
+    }
+    
+    async function data(){
+        let search=document.getElementById("searchFruit").value;
+        console.log(search)
+        let res=await fetch(`http://localhost:3000/${search}/`);
+        let data= await res.json();
+        let maindiv=document.getElementById("container")
+       
+        for(let i=0;i<data.length;i++){
+            let div=document.createElement("div");
+            div.setAttribute("id","parent")
+            let div1=document.createElement("div");
+            div1.setAttribute("id","div1")
+            let div2=document.createElement("div")
+            div2.setAttribute("id","div2")
+            let name=document.createElement("h2")
+            name.textContent=data[i].Name;
+            let quantity=document.createElement("p");
+            quantity.innerHTML="Quantity :"+data[i].Quantity;
+            let div3=document.createElement("div");
+            div3.setAttribute("id","div3");
+            let calorie=document.createElement("p");
+            calorie.innerHTML="Calories  "+data[i].Calories;
+            let calorie1=document.createElement("h3");
+            calorie1.setAttribute("id","calorie1")
+            calorie1.innerHTML=data[i].Calories+" calorie"
+            let carb=document.createElement("p");
+            carb.innerHTML=". Carb  "+data[i].Carbs;
+            let fat=document.createElement("p");
+            fat.innerHTML=". Fat  "+data[i].Fat;
+            let protein=document.createElement("p");
+            protein.innerHTML=". Protein  "+data[i].Protein;
+            div3.append(calorie,carb,fat,protein);
+           div1.append(name,quantity,div3)
+           div2.append(calorie1)
+           div.append(div1,div2)
+           maindiv.append(div)
+           document.getElementById("foodAnalysis").style.display="none"
+        }
+    }
+    let input=document.getElementById("searchFruit");
+    input.addEventListener("keypress",function (event){
+        if(event.key==="Enter"){
+            data();
+        }
+    })
+</script>

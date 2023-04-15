@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone App</title>
+    <link rel="stylesheet" href="homePage.css">
+    <style>
+        #maincontainer {
+            display: grid;
+            width: 70%;
+            margin: auto;
+            gap: 30px;
+            grid-template-rows: repeat(2, auto);
+        }
+
+        #about {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        #screenshoots {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0px;
+        }
+
+        #aboutcontainer {
+            /* width: 50%; */
+            font-size: 12px;
+            margin-right: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        #aboutcontainer>div>h3 {
+            font-size: 25px;
+            font-family: sans-serif;
+            color: #0072bf;
+        }
+
+        #imagecontainer {
+            /* width: 50%; */
+            margin-left: 50px;
+        }
+
+        #screnderals>h3 {
+            font-size: 20px;
+            font-family: sans-serif;
+            color: #0072bf;
+            border-bottom: 1px solid gray;
+        }
+
+        #contact {
+            width: 70%;
+            /* margin-top: 50px; */
+            margin: 50px auto;
+        }
+
+        #contact>h3 {
+            font-size: 20px;
+            font-family: sans-serif;
+            color: #0072bf;
+            border-bottom: 1px solid gray;
+
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div><img src="https://us.v-cdn.net/6024397/uploads/RP38WAYG9BJD/mfp-wordmark-indigo-tm.png" alt=""></div>
+        <div id="leftDiv">
+            <div>
+                <p>hi, </p>
+                <p id="userName">username</p>
+            </div>
+            <div>
+                <a href="">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.w8csn2YW8Ds6UEUuweEqCAHaHa&pid=Api&P=0&w=167&h=167">
+                </a>
+                <p style="background-color: red; width: 20px; height: 20px; color: white;">1</p>
+                <img src="https://wbecs.com/wbecs20/wp-content/themes/wbecs20/assets/img/membersarea/user_icon1.png"
+                    alt="">
+                <p style="background-color: lightgray; width: 20px; height: 20px; color: darkgrey;">0</p>
+            </div>
+            <div>
+                <a href="">
+                    <p>Help</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>Setting</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>Log Out</p>
+                </a>
+            </div>
+            <div>
+                <p>Follow us:</p>
+                <a href="https://facebook.com/myfitnesspal"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.53b08CedN8D1qIPKNpEczAHaHt&pid=Api&P=0&w=159&h=165"></a>
+                <a href="https://twitter.com/myfitnesspal"><img
+                        src="https://tse2.mm.bing.net/th?id=OIP.uQlQc1ej3xTRMpywzGuFvAHaHw&pid=Api&P=0&w=156&h=163"></a>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div><a href="homePage.html" onclick="navbarFunc(1)">MY HOME</a></div>
+        <div><a href="./foodpage.html" >FOOD</a></div>
+        <div><a href="./exerciseDairy.html" >EXERCISE</a></div>
+        <!-- <div><a href="" >REPORT</a></div> -->
+        <div><a href="appgallery.html" onclick="navbarFunc(5)">APPS</a></div>
+        <div><a href="./community.html">COMMUNITY</a></div>
+        <div><a href="./blog.html">BLOG</a></div>
+        <div><a href="./premium.html">PREMIUM</a></div>
+    </div>
+    <div id="phonecaontainer">
+        <div id="mobile" style="width:70%; margin: auto; border-bottom: 1px solid gray;">
+            <div>
+                <a href="moblie.html"><button> <img src="apple.png" alt="" style="width: 25px;"> iPhone</button></a>
+                <a href="ipad.html"><button> <img src="apple.png" alt="" style="width: 25px;"> iPad</button></a>
+                <a href="andorid.html"><button><img src="android.png" alt="" style="width: 25px;"> Android</button></a>
+            </div>
+        </div>
+        <div id="maincontainer">
+
+        </div>
+        <div id="contact">
+            <h3>Contact</h3>
+            <p>For product feedback and suggestions, <a href="">visit our support portal</a></p>
+            <p>Follow us on: <a href=""><img src="twitter.png" alt=""></a> <a href=""><img src="facebook.png"
+                        alt=""></a></p>
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+
+    <div id="footer">
+        <div>
+            <a href="">Calorie Counter</a>
+            <a href="">Blog</a>
+            <a href="">Terms</a>
+            <a href="">Privacy</a>
+            <a href="">Contact Us</a>
+            <a href="">API</a>
+            <a href="">Jobs</a>
+            <a href="">Feedback</a>
+            <a href="">Community Guidlines</a>
+            <a href="">Ad choics</a>
+            <a href=""> Do Not Sell My Personal Information</a>
+        </div>
+        <p>&#169 2022 MyFitnessPal, Inc.</p>
+    </div>
+</body>
+<script src="mobile.js"></script>
+
+</html>

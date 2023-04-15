@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Excercise</title>
+    <link rel="stylesheet" href="./css/addStrength.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+<div id="top">
+    <div><img src="https://us.v-cdn.net/6024397/uploads/RP38WAYG9BJD/mfp-wordmark-indigo-tm.png" alt=""></div>
+    <div id="leftDiv">
+        <div>
+            <p>hi, </p>
+            <p id="userName">username</p>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.w8csn2YW8Ds6UEUuweEqCAHaHa&pid=Api&P=0&w=167&h=167">
+            </a>
+            <p style="background-color: red; width: 20px; height: 20px; color: white;">1</p>
+            <img src="https://wbecs.com/wbecs20/wp-content/themes/wbecs20/assets/img/membersarea/user_icon1.png"
+                alt="">
+            <p style="background-color: lightgray; width: 20px; height: 20px; color: darkgrey;">0</p>
+        </div>
+        <div>
+            <a href="">
+                <p>Help</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <p>Setting</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <p>Log Out</p>
+            </a>
+        </div>
+        <div>
+            <p>Follow us:</p>
+            <a href="https://facebook.com/myfitnesspal"><img
+                    src="https://tse1.mm.bing.net/th?id=OIP.53b08CedN8D1qIPKNpEczAHaHt&pid=Api&P=0&w=159&h=165"></a>
+            <a href="https://twitter.com/myfitnesspal"><img
+                    src="https://tse2.mm.bing.net/th?id=OIP.uQlQc1ej3xTRMpywzGuFvAHaHw&pid=Api&P=0&w=156&h=163"></a>
+        </div>
+    </div>
+</div>
+<div id="bottom">
+    <div><a  href="homePage.html">MY HOME</a></div>
+    <div><a  href="">FOOD</a></div>
+    <div><a  href="exerciseDairy.html">EXERCISE</a></div>
+    <!-- <div><a  href="">REPORT</a></div> -->
+    <div><a  href="./appgallery.html" onclick="navbarFunc(5)">APPS</a></div>
+    <div><a href="./community.html">COMMUNITY</a></div>
+    <div><a href="./blog.html">BLOG</a></div>
+    <div><a href="./premium.html">PREMIUM</a></div>
+</div>
+<div id="bottom2">
+    <div><a href="./exerciseDairy.html" id="a1">Excercise Dairy</a></div>
+    <div><a href="./addCardio.html" id="a2">Database</a></div>
+    <div><a href="./createExercise.html" id="a3">My Excercise</a></div>
+    <div><a href="setting.html" id="a4">Setting</a></div>
+    <div><a  id="a5"></a></div>
+    <div><a  id="a6"></a></div>
+    <div><a  id="a7"></a></div>
+    <div><a  id="a8"></a></div>
+</div>
+
+<!-- body -->
+<div id="container">
+    <h2>Add Exercise</h2>
+    <hr>
+    <h3>Search our exercise database by name:</h3>
+    <div>
+        <input id="inputExercise" type="text" value="">
+        <button id="searchBut" onclick="fetchAndDisplay()"> Search </button>
+    </div>
+    <!-- <h3>Or, add your most recently used cardio exercises.</h3>
+    <button>Add Chechked</button> -->
+    <h3>Matching Excercises:</h3>
+   <div id="bottomData">
+    <div id="searchedDataDiv"></div>
+    <div id="addedDataDiv">
+        <h4>Adding:</h4>
+        <h5 id="exerciseName" style="color: red;"></h5>
+        <div style="display: flex ;">
+            <h3>Weight</h3>
+            <input type="text" class="inputEx"  placeholder="in kg" id="weight">
+        </div>
+        <div style="display: flex ;">
+            <h3>How long?</h3>
+            <input type="text" class="inputEx" onchange="displayCal()" placeholder="in min" id="time">
+        </div>
+        <div style="display: flex ;">
+            <h3>Calories Burnt  :</h3>
+            <p id="calBurnt" style="font-size: 20px;"></p>
+        </div>
+        <button onclick="addData()">Add Excercise</button>
+    </div>
+   </div>
+</div>
+
+</body>
+<script src="./js/addStrength.js"></script>
+</html>

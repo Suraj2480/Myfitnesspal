@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your BMR</title>
+    <link rel="stylesheet" href="./css/bmr.css">
+    <link rel="stylesheet" href="homePage.css">
+</head>
+<body>
+     <!-- Nav Bar -->
+ <div id="top">
+    <div><img src="https://us.v-cdn.net/6024397/uploads/RP38WAYG9BJD/mfp-wordmark-indigo-tm.png" alt=""></div>
+    <div id="leftDiv">
+        <div>
+            <p>hi, </p>
+            <p id="userName">username</p>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.w8csn2YW8Ds6UEUuweEqCAHaHa&pid=Api&P=0&w=167&h=167">
+            </a>
+            <p style="background-color: red; width: 20px; height: 20px; color: white;">1</p>
+            <img src="https://wbecs.com/wbecs20/wp-content/themes/wbecs20/assets/img/membersarea/user_icon1.png"
+                alt="">
+            <p style="background-color: lightgray; width: 20px; height: 20px; color: darkgrey;">0</p>
+        </div>
+        <div>
+            <a href="">
+                <p>Help</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <p>Setting</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <p>Log Out</p>
+            </a>
+        </div>
+        <div>
+            <p>Follow us:</p>
+            <a href="https://facebook.com/myfitnesspal"><img
+                    src="https://tse1.mm.bing.net/th?id=OIP.53b08CedN8D1qIPKNpEczAHaHt&pid=Api&P=0&w=159&h=165"></a>
+            <a href="https://twitter.com/myfitnesspal"><img
+                    src="https://tse2.mm.bing.net/th?id=OIP.uQlQc1ej3xTRMpywzGuFvAHaHw&pid=Api&P=0&w=156&h=163"></a>
+        </div>
+    </div>
+  </div>
+  <div id="bottom">
+    <div><a  href="homePage.html">MY HOME</a></div>
+    <div><a  href="./foodpage.html">FOOD</a></div>
+    <div><a  href="./exerciseDairy.html">EXERCISE</a></div>
+    <!-- <div><a  href="">REPORT</a></div> -->
+    <div><a  href="./appgallery.html" onclick="navbarFunc(5)">APPS</a></div>
+    <div><a href="./community.html">COMMUNITY</a></div>
+    <div><a href="./blog.html">BLOG</a></div>
+    <div><a href="./premium.html">PREMIUM</a></div>
+  </div>
+  <div id="bottom2">
+    <div><a href="./appgallery.html" id="a1">App Gallery</a></div>
+    <div><a href="./ipad.html" id="a1">Mobile</a></div>
+    <!-- <div><a href="./" id="a3">Tickers</a></div> -->
+    <!-- <div><a href="" id="a4">Badges</a></div> -->
+    <div><a href="./bmr.html" id="a5">BMR</a></div>
+    <div><a href="./bmi.html" id="a6">BMI</a></div>
+    <!-- <div><a  id="a7">Steps</a></div> -->
+    <div><a  id="a8"></a></div>
+  </div>
+    <div id="container">
+        <h2>BMR Calculator</h2>
+        <div id="main">
+            <div id="head">
+                <div id="content">
+                    <div id="bmrcal">
+                        <h3>Calculator Your BMR</h3>
+                        <p>
+                            To determine your current BMR, please provide the following information:
+                        </p>
+                        <div>
+                            <div id="bmrdata">
+                                <span>Current Weigth:</span>
+                                <input type="number" name="" id="cweigth">
+                                <select name="" id="weight" onchange="weight()">
+                                    <option value="kilograms">kilograms</option>
+                                    <option value="Pounds">Pounds</option>
+                                </select>
+                            </div>
+                            <div id="bmrdatah">
+                               <span> Height:</span>
+                                <input type="number" name="" id="feet">
+                                <input type="number" name="" id="inch">
+                                <select name="" id="" onchange="">
+                                    <option value="Feet/Inches">Feet/Inches</option>
+                                    <option value="Pounds">Cenitmeters</option>
+                                </select>
+                            </div>
+                            <div id="bmrage">
+                                <span>Age:</span>
+                                <input type="number" name="" id="age">
+                            </div>
+                            <div id="bmrgender">
+                                 <span> Sex:</span>
+                                <input type="radio" name="gender" id="M" value="M">
+                                <label for="">Male</label>
+                                <input type="radio" name="gender" id="F" value="F">
+                                <label for="">Female</label>
+                            </div>
+                        </div>
+                        <div id="calculate">
+                            <button>Calculator</button>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div id="aboutbmr">
+                <h3>What is Your BMR?</h3>
+                <div>
+                    <p>
+                        Your BMR (Basal Metabolic Rate) is an estimate of how many calories you'd burn if you were to do nothing but rest for 24 hours. It represents the minimum amount of energy needed to keep your body functioning, including breathing and keeping your heart beating.
+                    </p>
+                    <p>
+                        Your BMR does not include the calories you burn from normal daily activities or exercise.
+                    </p>
+                    <p>
+
+                        Our calculator uses the Mifflin-St. Jeor equations to estimate your BMR which is believed to be more accurate than the more commonly used Harris-Benedict equation.</p>
+                    </p>
+                        
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+<script src="./js/bmr.js"></script>
+</html>

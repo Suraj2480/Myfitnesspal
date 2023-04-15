@@ -1,0 +1,151 @@
+{
+    "cardio" : [
+          {
+              "name" : "Aerobics, general",
+              "weight" :{
+                  "pound" : 100,
+                  "kilogram" : 45
+              },
+              "time": 1,
+              "met" : 5
+          },
+          {
+              "name" : "Aerobics, high impact",
+              "weight" :{
+                  "pound" : 100,
+                  "kilogram" : 45
+              },
+              "time": 1,
+              "met" : 6
+          },
+          {
+              "name" : "Aerobics, low impact",
+              "weight" :{
+                  "pound" : 100,
+                  "kilogram" : 45
+              },
+              "time": 1,
+              "met" : 4
+          },
+          {
+              "name" : "Teaching aerobics class",
+              "weight" :{
+                  "pound" : 100,
+                  "kilogram" : 45
+              },
+              "time": 1,
+              "met" : 5
+          },
+          {
+              "name" : "Water Aerobics",
+              "weight" :{
+                  "pound" : 100,
+                  "kilogram" : 45
+              },
+              "time": 1,
+              "met" : 3
+          }
+      ],
+      "strength":[
+          {
+              "name":"push ups",
+              "met": 20
+          },
+          {
+              "name":"Triceps Push Down",
+              "met" : 10
+          }
+      ],
+      "userAddedExercise" : [
+          {
+              "exname":"skipping",
+              "time":10,
+              "cal" :45
+          }
+      ],
+      "apple":[
+        {
+            "Name": "Sparatan Apple",
+            "Quantity": "1",
+            "Calories": "50",
+            "Carbs": "13g",
+            "Fat": "0g",
+            "Protein": "0g"
+        }
+        ,
+        {
+            "Name": "Cameo Apple",
+            "Quantity": "154gm",
+            "Calories": "80",
+            "Carbs": "22g",
+            "Fat": "0g",
+            "Protein": "0g"
+        },
+        {
+            "Name": "Jazz Apple",
+            "Quantity": "1",
+            "Calories": "80",
+            "Carbs": "22g",
+            "Fat": "0g",
+            "Protein": "0g"
+        },
+        {
+            "Name": "Plle bread",
+            "Quantity": "1",
+            "Calories": "200",
+            "Carbs": "33g",
+            "Fat": "7g",
+            "Protein": "0g"
+        },
+        {
+            "Name": "Pacific rose Apple",
+            "Quantity": "1 medium apple",
+            "Calories": "80",
+            "Carbs": "22g",
+            "Fat": "0g",
+            "Protein": "0g"
+        }
+       ],
+"grapes":[
+        {
+            "Name": "Green Grapes",
+            "Quantity": "1 cup",
+            "Calories": "62",
+            "Carbs": "16g",
+            "Fat": "0g",
+            "Protein": "0g"
+        },
+        {
+            "Name": "Fda grapes",
+            "Quantity": ".75c",
+            "Calories": "90",
+            "Carbs": "23g",
+            "Fat": "0g",
+            "Protein": "0g"
+        },
+        {
+            "Name": "Black grapes",
+            "Quantity": "40 grapes",
+            "Calories": "63",
+            "Carbs": "17g",
+            "Fat": "0g",
+            "Protein": "1g"
+        },
+        {
+            "Name": "Grapes Updated",
+            "Quantity": "40grams",
+            "Calories": "72",
+            "Carbs": "18g",
+            "Fat": "0g",
+            "Protein": "5g"
+        },
+        {
+            "Name": "grapes juice",
+            "Quantity": "1 glass (250ml)",
+            "Calories": "75",
+            "Carbs": "9g",
+            "Fat": "0g",
+            "Protein": "2g"
+           }
+       ]
+  }

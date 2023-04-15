@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="homePage.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div id="top">
+        <div><img src="https://us.v-cdn.net/6024397/uploads/RP38WAYG9BJD/mfp-wordmark-indigo-tm.png" alt=""></div>
+        <div id="leftDiv">
+            <div>
+                <p>hi, </p>
+                <p id="userName">Ankit</p>
+            </div>
+            <div>
+                <a href="">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.w8csn2YW8Ds6UEUuweEqCAHaHa&pid=Api&P=0&w=167&h=167">
+                </a>
+                <p style="background-color: red; width: 20px; height: 20px; color: white;">1</p>
+                <img src="https://wbecs.com/wbecs20/wp-content/themes/wbecs20/assets/img/membersarea/user_icon1.png"
+                    alt="">
+                <p style="background-color: lightgray; width: 20px; height: 20px; color: darkgrey;">0</p>
+            </div>
+            <div>
+                <a href="">
+                    <p>Help</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>Setting</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>Log Out</p>
+                </a>
+            </div>
+            <div>
+                <p>Follow us:</p>
+                <a href="https://facebook.com/myfitnesspal"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.53b08CedN8D1qIPKNpEczAHaHt&pid=Api&P=0&w=159&h=165"></a>
+                <a href="https://twitter.com/myfitnesspal"><img
+                        src="https://tse2.mm.bing.net/th?id=OIP.uQlQc1ej3xTRMpywzGuFvAHaHw&pid=Api&P=0&w=156&h=163"></a>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div><a href="./homePage.html" >MY HOME</a></div>
+        <div><a href="./foodpage.html">FOOD</a></div>
+        <div><a href="./exerciseDairy.html" >EXERCISE</a></div>
+        <!-- <div><a  >REPORT</a></div> -->
+        <div><a  href="./appgallery.html" >APPS</a></div>
+        <div><a href="./community.html">COMMUNITY</a></div>
+        <div><a href="./blog.html">BLOG</a></div>
+        <div><a href="./premium.html">PREMIUM</a></div>
+    </div>
+    <div id="bottom2">
+        <div><a href="./homePage.html" id="a1">Home</a></div>
+        <div><a href="./goals.html" id="a2">Goal</a></div>
+        <!-- <div><a  id="a3">Check-In</a></div> -->
+        <!-- <div><a href=""  id="a4">Mail</a></div> -->
+        <div><a href="./profile.html" id="a5">Profile</a></div>
+        <div><a href="./blog.html" id="a6">My Blog</a></div>
+        <div><a href="./friends.html" id="a7">Friend</a></div>
+        <div><a href="./setting.html" id="a8">Setting</a></div>
+    </div>
+
+    <!-- body -->
+    <div id="body">
+        <div id="bodyleftDiv">
+            <!-- Body head -->
+            <div id="topleft">
+                <div>Your Daily Summary</div>
+                <div>
+                    <p id="p">X</p>day STREAK
+                </div>
+            </div>
+            <div id="bodyleft">
+                <div>
+                    <div id="userPhoto" style="background-color: darkgrey;"> <button><a href="uploadPhoto.html">upload
+                                photo</a></button><img src="">
+                    </div>
+                    <p style="font-size: 25px;
+                    color: #85c400;
+                    font-weight: bold;">50 lbs</p>
+                    <p style="color: #666666; font-size: 20px;">Lost</p>
+                </div>
+                <div id="claoriesDetailDiv">
+                    <div style="margin-left: 20px">
+                        <p>calories remaining</p>
+                        <p id="caloriesRemaining">2030</p>
+                        <hr>
+                    </div>
+                    <div id="addFoodExcerciseDiv">
+                        <button onclick="addExercise()">Add Excercises</button>
+                        <button>Add Food</button>
+                    </div>
+                    <div id="yourSummaryBottom">
+                        <div>
+                            <p id="goalCal" style="font-size: 20px; color: #666666;">2030</p>
+                            <p>GOAL</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <p id="foodCal" style="font-size: 20px; color: #666666;">0</p>
+                            <p>FOOD</p>
+                        </div>
+                        <div>
+                            <p>-</p>
+                        </div>
+                        <div>
+                            <p id="exerciseCal" style="font-size: 20px; color: #666666;">0</p>
+                            <p>EXCERCISE</p>
+                        </div>
+                        <div>
+                            <p>=</p>
+                        </div>
+                        <div>
+                            <p id="netCal" style="font-size: 20px; color: #666666;">0</p>
+                            <p>NET</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- body feed -->
+            <div id="newsFeed">News Feeds</div>
+            <div id="feedBox">
+                <div><textarea id="feedText" placeholder="What is in your mind ..."></textarea> </div>
+                <div><button
+                        style="padding: 10px;background-color: #0072bf; color: white; font-weight: bold; border: none; border-radius: 10px;">Share</button>
+                </div>
+            </div>
+            <!-- body bottom -->
+            <div>
+                <div id="commentDiv">
+                    <p id="userName">username</p>
+                    <p>burned 74 calories doing 10 minutes of Aerobics, general</p>
+                    <div id="likeCommentDiv">
+                        <button onclick="likeFunc(0)" id="like"><img
+                                src="https://tse1.mm.bing.net/th?id=OIP.4KvxxO2KUSBQsRFx2htT-gHaHv&pid=Api&P=0&w=152&h=158"
+                                alt="">like</button>
+                        <button onclick="commentFunc()" > <img src="https://tse1.mm.bing.net/th?id=OIP.YuIH70NKu43T1e4vtvnr4AHaHa&pid=Api&P=0&w=161&h=161" alt="">comment</button>
+                    <div style="background-color: #f6f6f6;"><input placeholder="write something..." type="text" style="width: 90% ;margin: 30px; padding: 2%;"></div>
+                    </div>
+                </div>
+                <div id="commentDiv">
+                    <p id="userName">username</p>
+                    <p>burned 74 calories doing 10 minutes of Aerobics, general</p>
+                    <div id="likeCommentDiv">
+                        <button onclick="likeFunc(0)" id="like"><img
+                                src="https://tse1.mm.bing.net/th?id=OIP.4KvxxO2KUSBQsRFx2htT-gHaHv&pid=Api&P=0&w=152&h=158"
+                                alt="">like</button>
+                        <button onclick="commentFunc()" > <img src="https://tse1.mm.bing.net/th?id=OIP.YuIH70NKu43T1e4vtvnr4AHaHa&pid=Api&P=0&w=161&h=161" alt="">comment</button>
+                    <div style="background-color: #f6f6f6;"><input placeholder="write something..." type="text" style="width: 90% ;margin: 30px; padding: 2%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rightDiv">
+
+            <h3>Recent Forum Topics</h3>
+            <ul>
+                <li>Any plant based success?</li>
+                <li>What's Your Most Recent NSV</li>
+                <li>What nobody tells you about losing weight</li>
+                <li>What nobody tells you about losing weight</li>
+            </ull>
+            <h3>HelloHealthy</h3>
+            <hr>
+            <h4>Eating For Impact: How to Eat to Boost Your Mood</h4>
+            <p>Mood disorders have been linked to gut health problems. Support a healthy gut and boost your mood with tips from MyFitnessPal’s registered dietitian.</p>
+            <h4>Do Sleep Drinks Actually Help You Sleep Better?</h4>
+            <p>You’re probably better off making your own DIY sleep drink (recipe included).</p>
+            <h4>How Lack of Sleep Affects Junk Food Cravings</h4>
+            <p>Sleep deprivation makes our body and brain crave higher-calorie foods.</p>
+        </div>
+    </div>
+    
+</body>
+<script src="./homePage.js"></script>
+</html>

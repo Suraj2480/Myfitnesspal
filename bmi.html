@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your BMI</title>
+    <link rel="stylesheet" href="./css/bmi.css">
+    <link rel="stylesheet" href="homePage.css">
+    <style>
+        table{
+            margin-top: 10px;
+            border: 1px solid black;
+            width: 600px;
+            text-align: center;
+        }
+        th{
+            border: 1px solid black;
+            background-color:green;
+        }
+        td{
+            border-left: 1px solid black;
+            height: 50px;
+        }
+        #arrow{
+            margin-top: 50px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 20px solid black;
+        }
+    
+    </style>
+</head>
+
+<body>
+     <!-- Nav Bar -->
+ <div id="top">
+    <div><img src="https://us.v-cdn.net/6024397/uploads/RP38WAYG9BJD/mfp-wordmark-indigo-tm.png" alt=""></div>
+    <div id="leftDiv">
+        <div>
+            <p>hi, </p>
+            <p id="userName">username</p>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.w8csn2YW8Ds6UEUuweEqCAHaHa&pid=Api&P=0&w=167&h=167">
+            </a>
+            <p style="background-color: red; width: 20px; height: 20px; color: white;">1</p>
+            <img src="https://wbecs.com/wbecs20/wp-content/themes/wbecs20/assets/img/membersarea/user_icon1.png"
+                alt="">
+            <p style="background-color: lightgray; width: 20px; height: 20px; color: darkgrey;">0</p>
+        </div>
+        <div>
+            <a href="">
+                <p>Help</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <p>Setting</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <p>Log Out</p>
+            </a>
+        </div>
+        <div>
+            <p>Follow us:</p>
+            <a href="https://facebook.com/myfitnesspal"><img
+                    src="https://tse1.mm.bing.net/th?id=OIP.53b08CedN8D1qIPKNpEczAHaHt&pid=Api&P=0&w=159&h=165"></a>
+            <a href="https://twitter.com/myfitnesspal"><img
+                    src="https://tse2.mm.bing.net/th?id=OIP.uQlQc1ej3xTRMpywzGuFvAHaHw&pid=Api&P=0&w=156&h=163"></a>
+        </div>
+    </div>
+  </div>
+  <div id="bottom">
+    <div><a href="./homePage.html">MY HOME</a></div>
+    <div><a href="./foodpage.html">FOOD</a></div>
+    <div><a href="./exerciseDairy.html">EXERCISE</a></div>
+    <!-- <div><a href="">REPORT</a></div> -->
+    <div><a  href="./appgallery.html" onclick="navbarFunc(5)">APPS</a></div>
+    <div><a href="./community.html">COMMUNITY</a></div>
+    <div><a href="./blog.html">BLOG</a></div>
+    <div><a href="./premium.html">PREMIUM</a></div>
+  </div>
+  <div id="bottom2">
+    <div><a href="./appgallery.html" id="a1">App Gallery</a></div>
+    <div><a  id="a2">Mobile</a></div>
+    <div><a  id="a3">Tickers</a></div>
+    <div><a  id="a4">Badges</a></div>
+    <div><a href="./bmr.html" id="a5">BMR</a></div>
+    <div><a href="./bmi.html" id="a6">BMI</a></div>
+    <div><a  id="a7">Steps</a></div>
+    <div><a  id="a8"></a></div>
+  </div>
+
+    <div id="container">
+        <h2>BMI Calculator</h2>
+        <div id="main">
+            <div id="head">
+                <div id="content">
+                    <div id="bmical">
+                        <h3>Calculator Your BMI</h3>
+                        <p>
+                            To determine your current BMR, please provide the following information:
+                        </p>
+                        <div>
+                            <div id="bmidata">
+                                <span> Current Weigth:</span>
+                                <input type="number" name="" id="cweigth">
+                                <select name="" id="">
+                                    <option value="kilograms">kilograms</option>
+                                    <option value="Pounds">Pounds</option>
+                                </select>
+                            </div>
+                            <div id="bmidatah">
+                                <span>Height:</span>
+                                <input type="number" name="" id="feet">
+                                <input type="number" name="" id="inch">
+                                <select name="" id="">
+                                    <option value="Feet/Inches">Feet/Inches</option>
+                                    <option value="Pounds">Cenitmeters</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="calculate">
+                            <button>Calculator</button>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div id="aboutbmi">
+                <h3>What is Your BMI</h3>
+                <div>
+                    <p>
+                        Your BMI (Body Mass Index) can help you find a healthy target weight range. BMI is a measure of
+                        body fat based on height and weight.
+                    </p>
+                    <p>
+                        BMI has several limitations: it's not accurate for pregnant women, people under 5 feet tall, and
+                        people with very muscular builds. It also does not account for age.
+                    </p>
+                    <p>
+                        Please remember that your BMI is just a guideline to help decide your target weight. Talk to a
+                        doctor or other health professional about any concerns you have regarding your weight, weight
+                        loss, or changes to your diet and exercise regimen.
+                    </p>
+                    <p>
+                        MyFitnessPal calculates BMI according to <a href="">CDC guidelines</a>.
+                    </p>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./js/bmi.js"></script>
+
+</html>

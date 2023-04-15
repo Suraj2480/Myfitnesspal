@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise Dairy</title>
+    <link rel="stylesheet" href="./css/excerciseDairy.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+<div id="top">
+    <div><img src="https://us.v-cdn.net/6024397/uploads/RP38WAYG9BJD/mfp-wordmark-indigo-tm.png" alt=""></div>
+    <div id="leftDiv">
+        <div>
+            <p>hi, </p>
+            <p id="userName">username</p>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.w8csn2YW8Ds6UEUuweEqCAHaHa&pid=Api&P=0&w=167&h=167">
+            </a>
+            <p style="background-color: red; width: 20px; height: 20px; color: white;">1</p>
+            <img src="https://wbecs.com/wbecs20/wp-content/themes/wbecs20/assets/img/membersarea/user_icon1.png"
+                alt="">
+            <p style="background-color: lightgray; width: 20px; height: 20px; color: darkgrey;">0</p>
+        </div>
+        <div>
+            <a href="">
+                <p>Help</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <p>Setting</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <p>Log Out</p>
+            </a>
+        </div>
+        <div>
+            <p>Follow us:</p>
+            <a href="https://facebook.com/myfitnesspal"><img
+                    src="https://tse1.mm.bing.net/th?id=OIP.53b08CedN8D1qIPKNpEczAHaHt&pid=Api&P=0&w=159&h=165"></a>
+            <a href="https://twitter.com/myfitnesspal"><img
+                    src="https://tse2.mm.bing.net/th?id=OIP.uQlQc1ej3xTRMpywzGuFvAHaHw&pid=Api&P=0&w=156&h=163"></a>
+        </div>
+    </div>
+</div>
+<div id="bottom">
+    <div><a href="./homePage.html" >MY HOME</a></div>
+    <div><a href="./foodpage.html" >FOOD</a></div>
+    <div><a href="./exerciseDairy.html" >EXERCISE</a></div>
+    <!-- <div><a  >REPORT</a></div> -->
+    <div><a href="./appgallery.html" onclick="navbarFunc(5)">APPS</a></div>
+    <div><a href="./community.html">COMMUNITY</a></div>
+    <div><a href="./blog.html">BLOG</a></div>
+    <div><a href="./premium.html">PREMIUM</a></div>
+</div>
+<div id="bottom2">
+    <div><a href="./exerciseDairy.html" id="a1">Excercise Dairy</a></div>
+    <div><a href="./addCardio.html" id="a2">Database</a></div>
+    <div><a href="./createExercise.html" id="a3">My Excercise</a></div>
+    <div><a href="setting.html" id="a4">Setting</a></div>
+    <div><a  id="a5"></a></div>
+    <div><a  id="a6"></a></div>
+    <div><a  id="a7"></a></div>
+    <div><a  id="a8"></a></div>
+    <!-- <div><a  id="a5"></a></div>
+    <div><a  id="a6"></a></div>
+    <div><a  id="a7"></a></div>
+    <div><a  id="a8"></a></div> -->
+</div>
+
+
+<!-- body -->
+<div id="container">
+    <div id="bodyTop">
+        <h3>Your Exercise Diary for:</h3>
+        <div id="date"><button onclick="dateDec(27)"> < </button> <p id="displayDate">Firday,May 27,2022</p> <button onclick="dateInc(27)"> > </button></div>
+    </div>
+    <hr>
+    <div id="bodyMid">
+        <table>
+            <thead>
+                <tr>
+                    <td><h3 style="color:#00548f; width: 300px; text-align: left;">Cardiovascular</h3></td>
+                    <td><p style="background-color: #00548f; color: white; padding: 2%;">Minutes</p></td>
+                    <td><p style="background-color: #00548f; color: white; padding: 2%;">calories burnt</p></td>
+                    <td style="width: 40px;"></td>
+                </tr>
+            </thead>
+            <tbody id="cardio">
+                <tr>
+                    <td>skipping</td>
+                    <td>10</td>
+                    <td>90</td>
+                    <td><button >-</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="buttonToAdd"><button><a href="./addCardio.html">Add Excercise</a></button> <hr><button>Quick Tools</button></div>
+        <hr>
+        <div>
+            <p>Daily Total/Goal</p>
+            <p>Weekly Total/Goal</p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td><h3 style="color:#00548f; width: 300px; text-align: left;">Strength Traning</h3></td>
+                    <td><p style="background-color: #00548f; color: white; padding: 2%; ">Time</p></td>
+                    <td><p style="background-color: #00548f; color: white; padding: 2%;">Catories</p></td>
+                    <!-- <td><p style="background-color: #00548f; color: white; padding: 2%;"></p></td> -->
+                </tr>
+            </thead>
+            <tbody id="strengthTraining">
+                <tr>
+                    <td>Pull Ups</td>
+                    <td>10</td>
+                    <td>198</td>
+                    <td><button >-</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="buttonToAdd"><button><a href="./addStrength.html">Add Excercise</a></button> <hr><button>Quick Tools</button></div>
+        <hr>
+        <br>
+        <hr>
+        <h3>Today's Exercise Notes</h3>
+        <textarea style="width:90% ; height: 100px;"></textarea>
+
+        <button onclick="Showreport()">View Full REPORT</button>
+    </div>
+</div>
+</body>
+<script src="./js/exerciseDairy.js"></script>
+</html>

@@ -1,0 +1,67 @@
+#loginContainer{
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    background : white;
+    width : 35%;
+    margin : auto;
+    text-align : center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding : 40px 0;
+    border-radius : 5px;
+    margin-top : 100px;
+}
+
+#loginContainer>div:nth-child(1){
+    font-size : 20px;
+    font-weight : bold;
+    margin-bottom : 40px;
+}
+
+#loginContainer>div:nth-child(2){
+    width : 58%;
+    margin : auto;
+    background-color : rgb(253, 237, 236);
+    font-size : 14px;
+    margin-bottom : 20px;
+    padding : 15px  7%;
+    border-radius : 5px;
+    display : none;
+
+}
+
+#loginContainer>div:nth-child(4) , #loginContainer>div:nth-child(6){
+    width : 70%;
+    margin : auto;
+    text-align : left ;
+    font-size : 14px;
+    margin-bottom : 20px;
+    color : red;
+    font-weight : bold;
+    display : none;
+}
+
+#loginContainer>input{
+    width : 70%;
+    height : 50px;
+    font-size : 18px;
+    display : block;
+    margin : auto;
+    margin-bottom : 10px;
+    border: 2px solid #eee;
+    outline-color : #0066EE;
+    padding-left : 5px;
+    border-radius : 5px;
+    cursor : pointer;
+}
+
+#loginContainer>div:nth-child(7){
+    width : 70%;
+    margin : auto;
+    margin-top : 40px;
+    margin-bottom : 40px;
+    text-align : center;
+    color : white;
+    padding : 15px 0;
+    background-color : #0066EE;
+    border-radius : 5px;
+    cursor : pointer;
+}

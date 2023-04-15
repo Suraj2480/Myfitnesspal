@@ -3,7 +3,7 @@ Clone of a fitness website
 - A Fitness trcking app
 - Keeps track on daily calories intake and daily calories burnt
 - Gives advise to lose weight or gain weight
-- Created whole website in a week with contribution of 5 team members
+
 [GO LIVE](https://lifestylepalteam.netlify.app/)
 <hr/>
 
